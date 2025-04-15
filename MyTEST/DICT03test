@@ -1,0 +1,16 @@
+dictBook={"A001":["為何演奏夏日影",199]}
+print("編輯前字典內容：",dictBook)
+
+dictBook["A002"] = ["三個下北澤夥伴",120]
+print("新增後字典內容：",dictBook)
+
+dictBook["A002"] = ["豐川集團軼聞錄",120]
+print("修改後字典內容：",dictBook)
+
+print("是否有書號A001的書籍：", "A001" in dictBook)
+
+del dictBook["A001"] 
+print("刪除後字典內容：",dictBook)
+
+print("是否有書號A001的書籍：", "A001" in dictBook)
+        
